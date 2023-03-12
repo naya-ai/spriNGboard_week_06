@@ -1,0 +1,1 @@
+A cow object named C was made in line 24 by the main func. The animal object &cr and c are assigned to c. 'c' output value is moo, when 'cs' output the value of animal's virtual make_sound() method. With the make_sound() method being virtual in the derived class, theres acess to the make_sound() function in the derived cow class. Cr has access to make_sound() in cow.  
