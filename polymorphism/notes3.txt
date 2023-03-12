@@ -1,0 +1,2 @@
+When the keyword final is used in the definition of a virtual function, it prevents later derived classes from overriding that function.
+So,  added final to Cow's makesound() virtual function and then tried to override makesound(), the final keyword prevented  from doing so because FullCow is derived from Cow.
