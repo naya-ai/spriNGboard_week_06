@@ -1,0 +1,1 @@
+Cpp reference says the final keywoard allows a function that is virtual and can't be overridden. Which is why the make_sound() function in cow and fullcow is not virtual and both try to override the base class make_sound() function. 
