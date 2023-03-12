@@ -1,0 +1,3 @@
+FullCow seemed to be able to override Cow's make sound() method because derived classes (Cow, FullCow) can override the virtual function of the base class (Animal).
+In the base and derived classes, makesound() is a virtual function, and override is declared in the derived classes.
+When we use a reference to a derived class to call makesound(), the compiler knows to use the makesound() function associated with that derived class.
